@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/ddd/cqrs/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/ddd/cqrs/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Testx

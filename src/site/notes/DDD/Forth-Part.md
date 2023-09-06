@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ddd/forth-part/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"dg-permalink":"\"领域驱动学习-第四部分\"","permalink":"/\"领域驱动学习-第四部分\"/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

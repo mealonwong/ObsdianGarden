@@ -17,4 +17,4 @@
 
 ## blogs 
 
-[[DDD/Forth-Part\|Forth-Part]]
+[[DDD/领域驱动学习-第四部分\|领域驱动学习-第四部分]]

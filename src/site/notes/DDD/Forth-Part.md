@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink:":"\"领域驱动学习-第四部分（战略设计）\"","permalink":"/ddd/forth-part/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink:":"\"领域驱动学习-第四部分（战略设计）\"","permalink":"/ddd/forth-part/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

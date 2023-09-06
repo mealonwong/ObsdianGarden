@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/bilibili/media-related/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/bilibili/media-related/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### 媒资实体融合问题

@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/bilibili/media-related/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/bilibili/media-related/"}
 ---
+
 
 ### 媒资实体融合问题
 

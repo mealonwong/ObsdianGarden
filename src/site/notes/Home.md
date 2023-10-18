@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"dg-home":true,"title":"Home","permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/home/","title":"Home","tags":["gardenEntry","gardenEntry","gardenEntry"]}
 ---
+
 
 
 # Home

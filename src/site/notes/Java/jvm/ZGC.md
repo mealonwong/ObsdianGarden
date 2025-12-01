@@ -3,7 +3,6 @@
 ---
 
 
-
 ## 概述
 
 ZGC（Z Garbage Collector），在 jdk 11 中引入的一种可扩展的低延迟垃圾收集器，在 jdk 15 中发布稳定版。

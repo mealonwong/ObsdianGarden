@@ -3,15 +3,8 @@
 ---
 
 
-# Home
 
+## 数字花园
+Digital Garden，这是专属于我的数字花园，用来记录工作学习中的知识点。
+Welcome to my garden！
 
-## Atlas
-
-
-## Calendar
-
-
-## blogs 
-
-[[DDD/领域驱动学习-第四部分\|领域驱动学习-第四部分]]

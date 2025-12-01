@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/my-sql/mvcc/"}
 ---
 
+
 MVCC 是一种并发控制机制，用于在多个并发事务同时读写数据库时保持数据的一致性和隔离性。它是通过在每个数据行上维护多个版本的数据来实现的。当一个事务要对数据库中的数据进行修改时，MVCC 会为该事务创建一个数据快照，而不是直接修改实际的数据行。
 
 1、读操作（SELECT）：
@@ -31,9 +32,9 @@ MVCC 是一种并发控制机制，用于在多个并发事务同时读写数据
 
 MVCC 通过创建数据的多个版本和使用快照读取来实现并发控制。读操作使用旧版本数据的快照，写操作创建新版本，并确保原始版本仍然可用。这样，不同的事务可以在一定程度上并发执行，而不会相互干扰，从而提高了数据库的并发性能和数据一致性。
 
-## [#](#一致性非锁定读和锁定读) 一致性非锁定读和锁定读
+##  一致性非锁定读和锁定读
 
-### [#](#一致性非锁定读) 一致性非锁定读
+### 一致性非锁定读
 
 对于 [**一致性非锁定读（Consistent Nonlocking Reads）**open in new window](https://dev.mysql.com/doc/refman/5.7/en/innodb-consistent-read.html)的实现，通常做法是加一个版本号或者时间戳字段，在更新数据的同时版本号 + 1 或者更新时间戳。查询时，将当前可见的版本号与对应记录的版本号进行比对，如果记录的版本小于可见版本，则表示该记录可见
 
@@ -41,7 +42,7 @@ MVCC 通过创建数据的多个版本和使用快照读取来实现并发控制
 
 在 `Repeatable Read` 和 `Read Committed` 两个隔离级别下，如果是执行普通的 `select` 语句（不包括 `select ... lock in share mode` ,`select ... for update`）则会使用 `一致性非锁定读（MVCC）`。并且在 `Repeatable Read` 下 `MVCC` 实现了可重复读和防止部分幻读
 
-### [](#锁定读)锁定读
+### 锁定读
 
 如果执行的是下列语句，就是 [**锁定读（Locking Reads）**open in new window](https://dev.mysql.com/doc/refman/5.7/en/innodb-locking-reads.html)
 
